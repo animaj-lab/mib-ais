@@ -1,0 +1,229 @@
+x_main_CTRL:
+- Translation(axis=XYZ, coeff=1, scale=25.0, do_clip=False)
+- Rotation3D(coeff=1)
+x_cor_CTRL:
+- Translation(axis=XYZ, scale=10, coeff=1, do_clip=False)
+- Rotation3D(coeff=1)
+x_cog_CTRL:
+- Translation(axis=XYZ, scale=4, coeff=1, do_clip=False)
+- Rotation3D(coeff=1)
+l_armIKLower_CTRL:
+- Scale(axis=X, scale=0.5, coeff=1, do_clip=False)
+l_armIKUpper_CTRL:
+- Scale(axis=X, scale=0.9, coeff=1, do_clip=False)
+l_armIK_CTRL:
+- Translation(axis=XYZ, scale=7, coeff=1, do_clip=False)
+- Rotation3D(coeff=1)
+l_armMiddle_CTRL:
+- Translation(axis=XYZ, scale=0.25, coeff=1, do_clip=False)
+l_armPoleVector_CTRL:
+- Translation(axis=XYZ, scale=25, coeff=1, do_clip=False)
+l_capFront_CTRL:
+- Scale(scale=1.0, coeff=1, do_clip=False)
+l_earmuff_CTRL:
+- Rotation3D(coeff=1)
+- Scale(axis=Z, scale=0.05, coeff=1, do_clip=False)
+l_foot_CTRL:
+- Translation(axis=XYZ, scale=5, coeff=1, do_clip=False)
+- Rotation3D(coeff=1)
+l_hand_CTRL:
+- Translation(axis=XYZ, scale=1.7, coeff=1, do_clip=False)
+- Rotation3D(coeff=1)
+- Scale(axis=XYZ, scale=0.15, coeff=1, do_clip=False)
+l_index01_CTRL:
+- Rotation3D(coeff=1)
+- Scale(scale=0.01, coeff=1, do_clip=False)
+l_index02_CTRL:
+- Rotation3D(coeff=1)
+- Scale(scale=0.10, coeff=1, do_clip=False)
+l_index03_CTRL:
+- Rotation3D(coeff=1)
+- Scale(scale=0.05, coeff=1, do_clip=False)
+l_instep_CTRL:
+- Rotation3D(coeff=1)
+l_legIKLower_CTRL:
+- Scale(axis=Y, scale=0.2, coeff=1, do_clip=False)
+l_legIKUpper_CTRL:
+- Scale(axis=Y, scale=0.2, coeff=1, do_clip=False)
+l_legPoleVector_CTRL:
+- Translation(axis=XYZ, scale=1.8, coeff=1, do_clip=False)
+- Rotation3D(coeff=1)
+l_leg_CTRL:
+- Translation(axis=XYZ, scale=1, coeff=1, do_clip=False)
+l_middle01_CTRL:
+- Rotation3D(coeff=1)
+- Scale(scale=0.03, coeff=1, do_clip=False)
+l_middle02_CTRL:
+- Rotation3D(coeff=1)
+- Scale(scale=0.10, coeff=1, do_clip=False)
+l_middle03_CTRL:
+- Rotation3D(coeff=1)
+- Scale(scale=0.05, coeff=1, do_clip=False)
+l_pinky01_CTRL:
+- Rotation3D(coeff=1)
+- Scale(scale=0.03, coeff=1, do_clip=False)
+l_pinky02_CTRL:
+- Rotation3D(coeff=1)
+- Scale(scale=0.25, coeff=1, do_clip=False)
+l_pinky03_CTRL:
+- Rotation3D(coeff=1)
+- Scale(scale=0.12, coeff=1, do_clip=False)
+l_shirttailBack_CTRL:
+- Rotation3D(coeff=1)
+- Scale(scale=0.1, coeff=1, do_clip=False)
+l_shirttailFront_CTRL:
+- Rotation3D(coeff=1)
+- Scale(scale=0.3, coeff=1, do_clip=False)
+- Translation(axis=XYZ, scale=0.25, coeff=1, do_clip=False)
+l_shirttail_CTRL:
+- Rotation3D(coeff=1)
+- Scale(scale=0.1, coeff=1, do_clip=False)
+l_shoulder_CTRL:
+- Translation(axis=XYZ, scale=0.7, coeff=1, do_clip=False)
+- Rotation3D(coeff=1)
+- Scale(axis=XYZ, scale=0.1 , coeff=1, do_clip=False)
+l_thumb01_CTRL:
+- Rotation3D(coeff=1)
+- Scale(scale=1.5, coeff=1, do_clip=False)
+l_thumb02_CTRL:
+- Rotation3D(coeff=1)
+- Scale(scale=0.2, coeff=1, do_clip=False)
+l_thumb03_CTRL:
+- Rotation3D(coeff=1)
+- Scale(scale=0.15, coeff=1, do_clip=False)
+- Translation(axis=XYZ, scale=0.3, coeff=1, do_clip=False)
+l_toeCap_CTRL:
+- Rotation3D(coeff=1)
+l_toes_CTRL:
+- Rotation3D(coeff=1)
+r_armIKLower_CTRL:
+- Scale(axis=X, scale=0.5, coeff=1, do_clip=False)
+r_armIKUpper_CTRL:
+- Scale(axis=X, scale=0.9, coeff=1, do_clip=False)
+r_armIK_CTRL:
+- Translation(axis=XYZ, scale=7, coeff=1, do_clip=False)
+- Rotation3D(coeff=1)
+r_armMiddle_CTRL:
+- Translation(axis=XYZ, scale=0.25, coeff=1, do_clip=False)
+r_armPoleVector_CTRL:
+- Translation(axis=XYZ, scale=25, coeff=1, do_clip=False)
+r_capFront_CTRL:
+- Scale(scale=1.0, coeff=1, do_clip=False)
+r_earmuff_CTRL:
+- Rotation3D(coeff=1)
+- Scale(axis=Z, scale=0.05, coeff=1, do_clip=False)
+r_foot_CTRL:
+- Translation(axis=XYZ, scale=5, coeff=1, do_clip=False)
+- Rotation3D(coeff=1)
+r_hand_CTRL:
+- Translation(axis=XYZ, scale=1.7, coeff=1, do_clip=False)
+- Rotation3D(coeff=1)
+- Scale(axis=XYZ, scale=0.15, coeff=1, do_clip=False)
+r_index01_CTRL:
+- Rotation3D(coeff=1)
+- Scale(scale=0.01, coeff=1, do_clip=False)
+r_index02_CTRL:
+- Rotation3D(coeff=1)
+- Scale(scale=0.10, coeff=1, do_clip=False)
+r_index03_CTRL:
+- Rotation3D(coeff=1)
+- Scale(scale=0.05, coeff=1, do_clip=False)
+r_instep_CTRL:
+- Rotation3D(coeff=1)
+r_legIKLower_CTRL:
+- Scale(axis=Y, scale=0.2, coeff=1, do_clip=False)
+r_legIKUpper_CTRL:
+- Scale(axis=Y, scale=0.2, coeff=1, do_clip=False)
+r_legPoleVector_CTRL:
+- Translation(axis=XYZ, scale=1.8, coeff=1, do_clip=False)
+- Rotation3D(coeff=1)
+r_leg_CTRL:
+- Translation(axis=XYZ,scale=1, coeff=1, do_clip=False)
+r_middle01_CTRL:
+- Rotation3D(coeff=1)
+- Scale(scale=0.03, coeff=1, do_clip=False)
+r_middle02_CTRL:
+- Rotation3D(coeff=1)
+- Scale(scale=0.10, coeff=1, do_clip=False)
+r_middle03_CTRL:
+- Rotation3D(coeff=1)
+- Scale(scale=0.05, coeff=1, do_clip=False)
+r_pinky01_CTRL:
+- Rotation3D(coeff=1)
+- Scale(scale=0.03, coeff=1, do_clip=False)
+r_pinky02_CTRL:
+- Rotation3D(coeff=1)
+- Scale(scale=0.25, coeff=1, do_clip=False)
+r_pinky03_CTRL:
+- Rotation3D(coeff=1)
+- Scale(scale=0.12, coeff=1, do_clip=False)
+r_shirttailBack_CTRL:
+- Rotation3D(coeff=1)
+- Scale(scale=0.1, coeff=1, do_clip=False)
+r_shirttailFront_CTRL:
+- Rotation3D(coeff=1)
+- Scale(scale=0.3, coeff=1, do_clip=False)
+- Translation(axis=XYZ, scale=0.25, coeff=1, do_clip=False)
+r_shirttail_CTRL:
+- Rotation3D(coeff=1)
+- Scale(scale=0.1, coeff=1, do_clip=False)
+r_shoulder_CTRL:
+- Translation(axis=XYZ, scale=0.7, coeff=1, do_clip=False)
+- Rotation3D(coeff=1)
+- Scale(axis=XYZ, scale=0.1 , coeff=1, do_clip=False)
+r_thumb01_CTRL:
+- Rotation3D(coeff=1)
+- Scale(scale=1.5, coeff=1, do_clip=False)
+r_thumb02_CTRL:
+- Rotation3D(coeff=1)
+- Scale(scale=0.2, coeff=1, do_clip=False)
+r_thumb03_CTRL:
+- Rotation3D(coeff=1)
+- Scale(scale=0.15, coeff=1, do_clip=False)
+- Translation(axis=XYZ, scale=0.3, coeff=1, do_clip=False)
+r_toeCap_CTRL:
+- Rotation3D(coeff=1)
+r_toes_CTRL:
+- Rotation3D(coeff=1)
+x_ass_CTRL:
+- Translation(axis=XYZ, scale=1, coeff=1, do_clip=False)
+- Rotation3D(coeff=1)
+- Scale(axis=XYZ, scale=0.15, coeff=1, do_clip=False)
+x_capFront_CTRL:
+- Scale(scale=1.0, coeff=1, do_clip=False)
+x_head_CTRL:
+- Translation(axis=XYZ, scale=2.5, coeff=1, do_clip=False)
+- Rotation3D(coeff=1)
+x_neck_CTRL:
+- Rotation1D(axis=X, coeff=1)
+- Translation(axis=XYZ, scale=0.3, coeff=1, do_clip=False)
+- Scale(axis=XYZ, scale=0.1, coeff=1, do_clip=False)
+x_pelvis_CTRL:
+- Rotation1D(axis=X, coeff=1)
+- Translation(axis=XYZ, scale=0.2, coeff=1, do_clip=False)
+x_shirttailFront_CTRL:
+- Rotation3D(coeff=1)
+- Scale(scale=0.3, coeff=1, do_clip=False)
+- Translation(axis=XYZ, scale=0.25, coeff=1, do_clip=False)
+x_thorax_CTRL:
+- Rotation3D(coeff=1)
+- Translation(axis=XYZ, scale=0.15, coeff=1, do_clip=False)
+x_topCap_CTRL:
+- Scale(scale=0.3, coeff=1, do_clip=False)
+x_upBody_CTRL:
+- Translation(axis=XYZ, scale=1.0, coeff=1, do_clip=False)
+- Rotation3D(coeff=1)
+- Scale(axis=XYZ, scale=0.03, coeff=1, do_clip=False)
+x_zip_CTRL:
+- Rotation3D(coeff=1)
+
+
+# additional controllers for inbetweening
+l_armFKLower_CTRL:
+- Rotation3D(coeff=1)
+l_armFKUpper_CTRL:
+- Rotation3D(coeff=1)
+r_armFKLower_CTRL:
+- Rotation3D(coeff=1)
+r_armFKUpper_CTRL:
+- Rotation3D(coeff=1)

@@ -1,0 +1,21 @@
+/node_modules
+/.ruff_cache
+__pycache__
+data
+.env
+/lightning_logs
+
+# Python
+.venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Model / checkpoint files
+*.pt
+*.pth
+*.ckpt
+*.safetensors

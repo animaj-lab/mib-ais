@@ -1,0 +1,872 @@
+l_ankle_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+l_armIK_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+l_armMiddle_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+l_armFKLower_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+l_armFKUpper_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+l_armIKLower_CTRL:
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+l_armIKUpper_CTRL:
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+l_armPoleVector_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+l_capFront_CTRL:
+  rotateY: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+l_earmuff_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  scaleZ: 1.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+l_eye_CTRL:
+  l_eye: 1
+  rotateZ: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  translateX: 0.0
+  translateY: 0.0
+l_hand_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+l_foot_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+l_index01_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+l_index02_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+l_index03_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+l_instep_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+l_legIKLower_CTRL:
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+l_legIKUpper_CTRL:
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+l_leg_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+l_legMiddle_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+l_legPoleVector_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+l_middle01_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+l_middle02_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+l_middle03_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+l_pinky01_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+l_pinky02_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+l_pinky03_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+l_shirttailBack_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+l_shirttailFront_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+l_shirttail_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+l_shoulder_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+l_thumb01_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+l_thumb02_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+l_thumb03_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+l_toeCap_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+l_toes_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+r_ankle_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+r_armIK_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+r_armMiddle_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+r_armFKLower_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+r_armFKUpper_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+r_armIKLower_CTRL:
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+r_armIKUpper_CTRL:
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+r_armPoleVector_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+r_capFront_CTRL:
+  rotateY: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+r_earmuff_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  scaleZ: 1.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+r_eye_CTRL:
+  r_eye: 1
+  rotateZ: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  translateX: 0.0
+  translateY: 0.0
+r_hand_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+r_foot_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+r_index01_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+r_index02_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+r_index03_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+r_instep_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+r_legIKLower_CTRL:
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+r_legIKUpper_CTRL:
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+r_leg_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+r_legMiddle_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+r_legPoleVector_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+r_middle01_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+r_middle02_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+r_middle03_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+r_pinky01_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+r_pinky02_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+r_pinky03_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+r_shirttailBack_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+r_shirttailFront_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+r_shirttail_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+r_shoulder_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+r_thumb01_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+r_thumb02_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+r_thumb03_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+r_toeCap_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+r_toes_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+x_ass_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+x_capFront_CTRL:
+  rotateY: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+x_cog_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+x_cor_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+x_head_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+x_main_CTRL:
+  GEO_VIS: true
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+x_mouth_CTRL:
+  mouth: 1
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+x_neck_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+x_pelvis_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+x_shirttailFront_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+x_thorax_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+x_topCap_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+x_upBody_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+x_zip_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+  scaleX: 1.0
+  scaleY: 1.0
+  scaleZ: 1.0
+  translateX: 0.0
+  translateY: 0.0
+  translateZ: 0.0
+x_secondary_CTRL:
+  l_armSwitchFKIK: 1.0
+  l_armStretchy: false
+  r_armSwitchFKIK: 1.0
+  r_armStretchy: false
+  l_autoRotHand: true
+  r_autoRotHand: true
+  l_legSwitchFKIK: 1.0
+  l_legStretchy: true
+  r_legSwitchFKIK: 1.0
+  r_legStretchy: true
+  gimbalXtraCTRL: false
+  capVisibility: true
+  headVisibility: true
+  handsVisibility: true
+  zipVisibility: true
+  Shirt_Visibility: true
+  l_hideFoot: false
+  r_hideFoot: false
+# new controllers
+l_heelCap_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+l_armLower_CTRL:
+    translateX: 0.0
+    translateY: 0.0
+    translateZ: 0.0
+    rotateX: 0.0
+    rotateY: 0.0
+    rotateZ: 0.0
+    scaleX: 1.0
+    scaleY: 1.0
+    scaleZ: 1.0
+l_armUpper_CTRL:
+    translateX: 0.0
+    translateY: 0.0
+    translateZ: 0.0
+    rotateX: 0.0
+    rotateY: 0.0
+    rotateZ: 0.0
+    scaleX: 1.0
+    scaleY: 1.0
+    scaleZ: 1.0
+l_legFKLower_CTRL:
+    translateX: 0.0
+    translateY: 0.0
+    translateZ: 0.0
+    rotateX: 0.0
+    rotateY: 0.0
+    rotateZ: 0.0
+    scaleX: 1.0
+    scaleY: 1.0
+    scaleZ: 1.0
+l_legFKUpper_CTRL:
+    translateX: 0.0
+    translateY: 0.0
+    translateZ: 0.0
+    rotateX: 0.0
+    rotateY: 0.0
+    rotateZ: 0.0
+    scaleX: 1.0
+    scaleY: 1.0
+    scaleZ: 1.0
+l_legLower_CTRL:
+    translateX: 0.0
+    translateY: 0.0
+    translateZ: 0.0
+    rotateX: 0.0
+    rotateY: 0.0
+    rotateZ: 0.0
+    scaleX: 1.0
+    scaleY: 1.0
+    scaleZ: 1.0
+l_legUpper_CTRL:
+    translateX: 0.0
+    translateY: 0.0
+    translateZ: 0.0
+    rotateX: 0.0
+    rotateY: 0.0
+    rotateZ: 0.0
+    scaleX: 1.0
+    scaleY: 1.0
+    scaleZ: 1.0
+l_lidDown_CTRL:
+    translateY: 0.0
+    rotateZ: 0.0
+l_lidUp_CTRL:
+    translateY: 0.0
+    rotateZ: 0.0
+r_heelCap_CTRL:
+  rotateX: 0.0
+  rotateY: 0.0
+  rotateZ: 0.0
+r_armLower_CTRL:
+    translateX: 0.0
+    translateY: 0.0
+    translateZ: 0.0
+    rotateX: 0.0
+    rotateY: 0.0
+    rotateZ: 0.0
+    scaleX: 1.0
+    scaleY: 1.0
+    scaleZ: 1.0
+r_armUpper_CTRL:
+    translateX: 0.0
+    translateY: 0.0
+    translateZ: 0.0
+    rotateX: 0.0
+    rotateY: 0.0
+    rotateZ: 0.0
+    scaleX: 1.0
+    scaleY: 1.0
+    scaleZ: 1.0
+r_legFKLower_CTRL:
+    translateX: 0.0
+    translateY: 0.0
+    translateZ: 0.0
+    rotateX: 0.0
+    rotateY: 0.0
+    rotateZ: 0.0
+    scaleX: 1.0
+    scaleY: 1.0
+    scaleZ: 1.0
+r_legFKUpper_CTRL:
+    translateX: 0.0
+    translateY: 0.0
+    translateZ: 0.0
+    rotateX: 0.0
+    rotateY: 0.0
+    rotateZ: 0.0
+    scaleX: 1.0
+    scaleY: 1.0
+    scaleZ: 1.0
+r_legLower_CTRL:
+    translateX: 0.0
+    translateY: 0.0
+    translateZ: 0.0
+    rotateX: 0.0
+    rotateY: 0.0
+    rotateZ: 0.0
+    scaleX: 1.0
+    scaleY: 1.0
+    scaleZ: 1.0
+r_legUpper_CTRL:
+    translateX: 0.0
+    translateY: 0.0
+    translateZ: 0.0
+    rotateX: 0.0
+    rotateY: 0.0
+    rotateZ: 0.0
+    scaleX: 1.0
+    scaleY: 1.0
+    scaleZ: 1.0
+r_lidDown_CTRL:
+    translateY: 0.0
+    rotateZ: 0.0
+r_lidUp_CTRL:
+    translateY: 0.0
+    rotateZ: 0.0
