@@ -1,0 +1,64 @@
+ANIMAJ STUDIOS ASSET LICENSE (NON-COMMERCIAL)
+Copyright © Animaj Studios. All rights reserved.
+
+These rig files, animation cycles, and associated materials (the "Assets") are made available by Animaj Studios ("Animaj") in this repository to accompany the open-source motion-in-between model and to allow contributors to visualize and evaluate the results of their contributions. The software code in this repository is licensed separately under the Apache License, Version 2.0, and nothing in this license alters, replaces, or applies to that code.
+
+By downloading, accessing, using, reproducing, or modifying the Assets, you ("you") agree to be bound by this license. If you do not agree, do not download, access, use, reproduce, or modify the Assets.
+
+
+1. DEFINITIONS
+
+In this license, the following definitions apply:
+
+"Animaj" means Animaj Studios, a French company, headquarters address is 30 Boulevard de Sébastopol, 75004 Paris, France.
+"Assets" means the rig files, animation cycles, and associated materials made available by Animaj in this repository under this license, together with any part of them and any Derivative Works.
+"Derivative Work" means any adaptation, modification, port, or other work based on or derived from the Assets.
+"Model" means a machine learning or artificial intelligence model trained, fine-tuned, or otherwise developed by you solely using  the code in this repository, or any modified or forked version of that code. No other models are permitted. 
+"Non-Commercial Purpose" means use solely for personal, educational, portfolio, research, or evaluation purposes, and does not include any use that results in, is intended for, or is directed towards commercial advantage, monetary compensation, or other commercial benefit, whether direct or indirect. 
+
+2. LICENSE GRANT
+2.1 Subject to your continued compliance with this license, Animaj grants you a worldwide, royalty-free, non-exclusive, non-transferable, and revocable license to download, access, use, reproduce, and modify the Assets solely for a Non-Commercial Purpose.
+2.2 You may use the Assets as input to the Model in order to run, test, evaluate, and visualize the output and performance of that Model, and to share images, videos, or other renders of that output for a Non-Commercial Purpose.
+2.3 You may create and use Derivative Works for a Non-Commercial Purpose, and may redistribute the Assets and Derivative Works for a Non-Commercial Purpose in accordance with clause 3.
+2.4 All rights not expressly granted under this license are reserved by Animaj. No rights are granted by implication, estoppel, or otherwise.
+
+3. CONDITIONS OF USE
+3.1 If you use  the Assets or any Derivative Works, you must:
+(a) use them only for a Non-Commercial Purpose;
+(b) retain the copyright notice above and a complete, unmodified copy of this license;
+(c) clearly identify any modifications you have made and mark any Derivative Works as unofficial and not endorsed by Animaj; and
+(d) not remove, obscure, or alter any copyright, attribution, or proprietary notice contained in or accompanying the Assets.
+3.2 You must not impose any additional or different terms on the Assets that restrict the rights granted under, or conflict with, this license.
+
+4. RESTRICTIONS
+4.1 You must not use the Assets, or any part of them, for any commercial, marketing, promotional or revenue-generating purpose without Animaj's prior written permission, including use in films, television, advertising, games, products, monetised content, or any other commercial exploitation.
+4.2 You must not use the Assets as training, fine-tuning, or validation data, nor to create, compile, or contribute to any dataset, nor otherwise for the development, training, or improvement of any artificial intelligence, machine learning, or generative system. For the avoidance of doubt, using the Assets as input to run, test, evaluate, or visualize the output of a Model under clause 2.2 is permitted; using the Assets to train, fine-tune, build, or improve a Model, or to build a dataset, is not.
+4.3 You must not use the Assets in any way that is unlawful, defamatory, obscene, or otherwise harmful to Animaj's reputation or to the characters or brands to which the Assets relate.
+4.4 You must not imply or represent any endorsement, partnership, sponsorship, or affiliation with Animaj, or use the Assets in a manner that suggests any official status.
+4.5 You must not sublicense, sell, rent, lease, or otherwise commercially distribute the Assets other than as expressly permitted in clause 3.
+
+5. RESERVATION OF INTELLECTUAL PROPERTY RIGHTS
+5.1 The Assets are licensed, not sold. This license grants you no right, title, or interest in or to Animaj's characters (including Pocoyo), designs, names, logos, trademarks, brands, stories, or any other intellectual property, all of which remain the sole and exclusive property of Animaj and its licensors.
+5.2 No trademark rights are licensed under this license, and nothing in this license entitles you to use any Animaj name or mark except as strictly required to comply with the attribution condition in clause 3.
+5.3 Any  original elements you contribute to a Derivative Work is hereby assigned to Animaj Studios upon creation and nothing shall prevent Animaj Studios from enforcing its ownership and rights in and to the Assets and Derivative Work. 
+
+6. NO WARRANTY
+6.1 The Assets are provided "as is" and "as available", without warranty or representation of any kind, whether express, implied, or statutory, including any implied warranties of satisfactory quality, fitness for a particular purpose, non-infringement, or title, to the fullest extent permitted by law.
+
+7. LIMITATION OF LIABILITY
+7.1 To the fullest extent permitted by law, Animaj shall not be liable for any loss of profit, loss of business, loss of goodwill, loss of data, or any indirect or consequential loss, or for any other loss or damage arising out of or in connection with this license or your use of the Assets.
+7.2 Nothing in this license excludes or limits any liability that cannot be excluded or limited under applicable law, including liability for death or personal injury caused by negligence or for fraud.
+7.3 Subject to clause 7.2, Animaj's total aggregate liability arising out of or in connection with this license and your use of the Assets shall not exceed GBP 100.
+7.4 You shall indemnify and hold harmless Animaj against all losses, damages, liabilities, costs, and expenses (including reasonable legal fees) arising out of or in connection with your use of the Assets or any Derivative Works, or your breach of this license.
+
+8. TERMINATION
+8.1 This license and the rights granted under it terminate automatically and immediately if you breach any of its terms.
+8.2 Animaj may also terminate or suspend this license, and may cease making the Assets available, at any time and for any reason.
+8.3 On termination, you must cease all use of the Assets and destroy all copies of the Assets in your possession or control, save that any Derivative Works lawfully distributed for a Non-Commercial Purpose before termination may remain subject to this license.
+8.4 Clauses 4, 5, 6, 7, 8, and 9 survive termination of this license.
+
+9. GENERAL
+9.1 This license is the entire agreement between you and Animaj in respect of the Assets and supersedes any prior understanding on that subject.
+9.2 If any provision of this license is held to be invalid or unenforceable, the remaining provisions continue in full force and effect.
+9.3 Animaj's failure to enforce any provision of this license is not a waiver of its right to do so later.
+9.4 This license and any dispute or claim arising out of or in connection with it or its subject matter (including non-contractual disputes or claims) are governed by and construed in accordance with the law of England and Wales, and the courts of England and Wales have exclusive jurisdiction.
