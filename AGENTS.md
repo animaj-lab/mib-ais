@@ -11,6 +11,7 @@ uv sync --frozen --all-groups   # installs base + training + dev + pytorch group
 ```
 
 Create a `.env` file at repo root — required before running any script:
+
 ```sh
 MIB_POCOYO_DATASET_DIR=data/dataset
 MIB_POCOYO_EXPERIMENT_DIR=data/exp
@@ -23,15 +24,16 @@ HF_TOKEN=your_hf_token   # only needed for private HF datasets
 
 ## Key Commands
 
-| Task | Command |
-|---|---|
-| Lint + format (pre-commit) | `uv run pre-commit run` |
-| Lint only | `uv run ruff check .` |
-| Format only | `uv run ruff format .` |
-| Run tests | `uv run pytest` |
-| Train | `uv run python -m motion_inbetweening.scripts.train pocoyo --training-type best` |
-| Evaluate (local ckpt) | `uv run python -m motion_inbetweening.scripts.test path/to/checkpoint [test_set]` |
-| Evaluate (HF model) | `uv run python -m motion_inbetweening.scripts.test AnimajSAS/ais_bilstm_rig_controllers_values [test_set]` |
+| Task                       | Command                                                                                 |
+| -------------------------- | --------------------------------------------------------------------------------------- |
+| Lint + format (pre-commit) | `uv run pre-commit run`                                                                 |
+| Lint only                  | `uv run ruff check .`                                                                   |
+| Format only                | `uv run ruff format .`                                                                  |
+| Run tests                  | `uv run pytest`                                                                         |
+| Train                      | `uv run python -m motion_inbetweening.scripts.train pocoyo --training-type best`        |
+| Evaluate (local ckpt)      | `uv run python -m motion_inbetweening.scripts.test path/to/checkpoint [test_set]`       |
+| Evaluate (HF model)        | `uv run python -m motion_inbetweening.scripts.test AnimajSAS/AIS_BI_LSTM_v0 [test_set]` |
+| Serve for the Maya plugin  | `uv run python -m motion_inbetweening.scripts.serve`                                    |
 
 `--training-type` options: `best`, `custom`, `debug`, `from_file`. Model options: `lstm` (default), `citl`, `delta_interpolator`, `diffusion`. `test_set` options: `all` (default), `held_out_algorithmic`, `held_out_random`, `production`. Dataset path is resolved automatically from env vars — do not pass a path.
 
@@ -39,7 +41,8 @@ HF_TOKEN=your_hf_token   # only needed for private HF datasets
 
 ```
 motion_inbetweening/   # Main ML package
-  scripts/             # Entrypoints: train.py, test.py, test_st.py
+  scripts/             # Entrypoints: train.py, test.py, serve.py (local inference server)
+  inference/           # Single-sample inference pipeline (pipeline.py) and post-processing
   config/              # Pydantic + OmegaConf config classes
   lightning_modules/   # PyTorch Lightning modules
   infra/               # HF Hub, paths, checkpoint loading
@@ -49,6 +52,9 @@ shared/                # Local utility package, imported as `from shared.domain.
   losses/
   rig/
   utils.py
+maya_plugin/           # Maya shelf client of serve.py (stdlib + maya.* only, no repo imports)
+  install.mel          # Drag-and-drop installer
+  mib_maya/
 ```
 
 `shared/` is not separately installed — it is importable directly as a local package.

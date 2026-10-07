@@ -1,0 +1,18 @@
+// Drag-and-drop installer of the motion in-betweening plugin.
+// Drop this file in the Autodesk Maya viewport. It adds the plugin buttons to the current shelf.
+
+global proc mib_drag_and_drop_install() {
+    string $whatIs = `whatIs mib_drag_and_drop_install`;  // "Mel procedure found in: <path>"
+    string $path = `substring $whatIs 25 999`;
+    string $installer = `substituteAllString $path "install.mel" "mib_maya/installer.py"`;
+
+    string $pythonCommand =
+        "import importlib.util; " +
+        "spec = importlib.util.spec_from_file_location('_mib_maya_installer', r'" + $installer + "'); " +
+        "module = importlib.util.module_from_spec(spec); " +
+        "spec.loader.exec_module(module)";
+
+    python($pythonCommand);
+}
+
+mib_drag_and_drop_install();

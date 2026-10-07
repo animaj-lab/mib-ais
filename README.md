@@ -18,6 +18,7 @@ Official implementation of the method described in the following paper, includin
 - [Setup](#setup)
 - [Training](#training)
 - [Evaluation](#evaluation)
+- [Maya plugin](#maya-plugin)
 - [Development](#development)
 - [Citation](#citation)
 
@@ -87,6 +88,53 @@ Valid values for `--test-set`:
 - `held_out_random` — in-house dataset with random masking
 - `production` — production test set
 - `all` (default) — runs all three test sets
+
+## Maya plugin
+
+The Maya plugin in-betweens the Pocoyo rig on your machine. It has two parts:
+
+- a local inference server, which runs in this repo's uv environment and loads the model one time;
+- a Maya shelf, which sends the keyed frames to the server and keys the predicted frames as breakdowns.
+
+The plugin needs Autodesk Maya 2025 or later. It uses only the Python standard library inside Maya, so you do not
+need to install packages in `mayapy`.
+
+### 1. Start the inference server
+
+Complete the [Installation](#installation) and [Setup](#setup) steps, then run this command from the repo root:
+
+```sh
+uv run python -m motion_inbetweening.scripts.serve
+```
+
+The first start downloads [AnimajSAS/AIS_BI_LSTM_v0](https://huggingface.co/AnimajSAS/AIS_BI_LSTM_v0) to
+`MIB_POCOYO_EXPERIMENT_DIR`. Options:
+
+- `--model path/to/safetensors`: use a local checkpoint
+- `--port 8765`: change the port. Set the same URL in the `MIB_SERVER_URL` environment variable of Maya (for example
+  `MIB_SERVER_URL=http://127.0.0.1:8766`).
+- `--device cpu`: change the device. The CPU is fast enough for this model.
+
+Keep the server open while you use the plugin.
+
+### 2. Install the shelf buttons
+
+Select a shelf in Maya, then drag `maya_plugin/install.mel` into the Maya viewport. The installer adds two buttons to
+the current shelf:
+
+- **In-between Pocoyo**: predicts the frames between the keys
+- **Undo**: removes the keys of the last in-betweening
+
+### 3. In-between an animation
+
+1. Reference or open the Pocoyo rig: `assets/pcy/ch/ch0001/ch0001.ma`.
+2. Key at least 2 poses. Key all the controllers at each pose.
+3. Select a controller of the rig.
+4. Select a time range in the timeline. If no range is selected, the plugin uses the playback range.
+5. Click **In-between Pocoyo**.
+
+The plugin keys all the frames between the first and the last keyed frames of the range, as breakdowns. It does not
+change your keys. Click **Undo** to remove the predicted keys.
 
 ## Development
 
